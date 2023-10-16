@@ -1,0 +1,49 @@
+body
+{
+    background-color:white;
+    align-items: center;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container
+{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    background-color:grey;
+    padding: 50px;
+
+    
+}
+
+.butons
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    
+
+}
+.display
+{
+    height: 50px;
+    width: 300px;
+    text-align: right;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+
+
+}
+.button
+{
+    border-radius: 50%;
+}
