@@ -48,3 +48,23 @@ nav ul li a:hover::after
 width:100%;
 background-color: aliceblue;
 }
+
+.one
+{
+    background-color: aqua;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.two
+{
+    background-color: red;
+    float:right ;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.Mirror {
+    transform: scaleX(-1);
+  }
